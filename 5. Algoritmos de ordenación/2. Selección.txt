@@ -1,0 +1,3 @@
+Hace un barrido desde el índice cero al último, y va comprobando hasta encontrar el valor más pequeño guardando la posición del índice. 
+
+Hace un barrido desde el índice cero comprobando ese valor con el siguiente hasta encontrar un valor más pequeño. Finalizada la primera iteración ya conoce el índice más pequeño y lo traslada al índice cero, comenzando la segunda iteración desde la posición inicial + 1 y así sucesivamente

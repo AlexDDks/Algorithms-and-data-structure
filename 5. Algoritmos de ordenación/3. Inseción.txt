@@ -1,0 +1,4 @@
+Tenemos un algoritmo que comienza desde el segundo índice y avanza hasta el último 
+Tenemos un segundo algoritmo que va desde el índice anterior a donde parte el primer algoritmo, hasta el índice cero.
+
+Comienza el algoritmo general a guardar el valor de inicio del primer algoritmo en una variable auxiliar y se compara con todos los valores anteriores hasta el índice cero. En esta comparación, si la posición es mayor en el índice anterior que la actual, se intercambia

@@ -1,0 +1,5 @@
+El algoritmo bubble comienza a analizar los elementos desde el índice cero, comparando ese elemento con el siguiente a su derecha, si es mayor el primero que el segundo, se intercambian posiciones. En cada ronda que haga, no todos los números quedarán ordenados pero garantiza que el número más grande quedará en el último índice. En siguientes iteraciones el segundo número más grande quedará en el último índice - 1 y así sucesivamente hasta que queden ordenados por completo todos los elementos de un arreglo.
+
+En la segunda vuelta ya no hay que checar el último índice ya que por garantía sabemos que ese es el número más grande y así sucesivamente.
+
+Cuando haya una iteración sin ningún tipo de intercambio, entonces estamos seguros que ya todo el arreglo está ordenado y no hay que hacer ninguna otra iteración

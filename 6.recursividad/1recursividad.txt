@@ -1,0 +1,3 @@
+Las funciones recursivas se autollaman dentro de su propio código, esto por supuesto en dependencia de una condicional, de lo contrario sería un bucle infinito. A medida de que se va iterando sobre una sección de la misma función, se van creando "n" capas de la memoria original con su propio flujo de ejecución en donde se guardan los datos de cada iteración (n iteraciones). Por último al cumplirse la condicional o dejar de cumplirse, se sale del bucle y ahora sí, el resto de código de la función original es terminado, eliminándose esas capas adicionales de la memoria original utilizada en esa función.
+
+¡Las llamadas a la función SIEMPRE SE HACEN BAJO UNA CONDICIÓN!
